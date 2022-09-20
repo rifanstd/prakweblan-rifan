@@ -1,5 +1,5 @@
 <div class="container">
-    <form>
+    <form action="/store" method="post">
         <div class="form-group">
             <label for="npm">NPM</label>
             <input type="text" class="form-control" id="npm" name="npm" placeholder="Input NPM Anda. Ex: 2017051019">
@@ -10,7 +10,7 @@
         </div>
         <div class="form-group">
             <label for="alamat">Alamat</label>
-            <input type="text" class="form-control" id="alamat" name="alamat" placeholder="Input alamat Anda. Ex: Tangerang Bos Senggol Dong">
+            <input type="text" class="form-control" id="alamat" name="alamat" placeholder="Input alamat Anda. Ex: Tangerang">
         </div>
         <button type="submit" class="btn btn-primary">Tambah</button>
     </form>
